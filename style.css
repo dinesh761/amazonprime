@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #061018;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+.navi {
+  height: 20px;
+  width: 55%;
+}
+.navi li {
+  float: right;
+  height: 20px;
+  text-align: center;
+  list-style: none;
+  margin: 10px 10px;
+}
+
+.navi li a {
+  text-align: center;
+  text-decoration: none;
+  color: #5c6b76;
+  font-size: 18px;
+}
+
+.navi li a:active {
+  color: #f6f5eb;
+  text-decoration: underline;
+}
+
+.subcont {
+  height: 550px;
+  width: 100%;
+}
+
+.episode {
+  height: 250px;
+  width: 90%;
+  margin: 4px 5%;
+  background-color: #121e28;
+}
+
+.imageo {
+  float: left;
+  width: 30%;
+}
+.image {
+  height: 250px;
+  width: 100%;
+}
+
+.fas {
+  color: #f3f8fb;
+}
+
+.icon {
+  height: 30px;
+  width: 60%;
+  margin-left: 35%;
+  margin-top: 25px;
+  padding-top: 15px;
+}
+
+.icon li {
+  float: left;
+  padding-right: 10px;
+  list-style: none;
+}
+.icon li p {
+  color: #f3f8fb;
+}
+
+.icon li:last-child {
+  float: right;
+  color: #737a80;
+}
+
+.subtitles {
+  height: 20px;
+  width: 60%;
+  margin-left: 35%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.subtitles li {
+  float: left;
+  padding-right: 10px;
+  list-style: none;
+}
+
+.subtitles li p {
+  font-size: 13px;
+  color: #506d84;
+}
+
+.subtitles li:last-child p {
+  color: #067ab0;
+}
+
+.subtitles li:nth-last-child(2) p {
+  color: #067ab0;
+}
+
+.paragaraph {
+  height: 100px;
+  width: 60%;
+  margin-left: 35%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #506d84;
+  font-size: 13px;
+}
